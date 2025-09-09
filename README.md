@@ -11,7 +11,7 @@ This code is the Tensorflow implementation of the Expert-Assistant (E-A) network
 ## Getting Started
 
 ### Dataset and Configurations
-- Download the RadioML2016.10a dataset from https://www.deepsig.ai/datasets/ and put the dataset in the "dataset" directory.
+- Download the RadioML2016.10a dataset from https://www.deepsig.ai/datasets/ and put the dataset into the "dataset" directory.
 - Set configurations in `run_tf.py` (training and testing) or `test_tf.py` (testing only).
 
 ### Training
@@ -26,4 +26,5 @@ To test the trained E-A network on RML16, run:
 ```cmd
 python test_tf.py
 ```
+
 We have provided an example trained E-A network in the "logs" directory.
